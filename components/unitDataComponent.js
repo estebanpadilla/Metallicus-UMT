@@ -138,10 +138,20 @@ class UnitDataComponent extends Component {
 		this.unitDataContainer.appendChild(label);
 		label.innerHTML = objectKey.capitalize();
 
-		array.forEach(element => {
-			console.log(element);
+		if (objectKey === 'connections') {
 
-		});
+			var connectionsContainer = document.createElement('div');
+			this.unitDataContainer.appendChild(connectionsContainer);
+
+			array.forEach(element => {
+				console.log(element);
+
+				var input = document.createElement('input');
+				connectionsContainer.appendChild(input);
+				input.value = element;
+
+			});
+		}
 	}
 
 	udpateUnit() {
