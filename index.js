@@ -13,8 +13,6 @@ function init() {
 	var appManager = new AppManager();
 	//2. Initialize variables
 	//3. Program Logic
-
-	console.log(appManager.DataManager);
 }
 
 String.prototype.capitalize = function () {
