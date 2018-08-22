@@ -1,0 +1,27 @@
+/* Add your amazing style here! */
+.unitsComponent {
+	background-color:white;
+	width: 30%;
+	height: 100vh;
+	border-right: 3px solid black;
+	box-sizing: border-box;
+}
+
+.newUnitBtn {
+	width: 50px;
+	height: 100%;
+	float:right;
+	
+	padding: 0px;
+	margin: 0px;
+}
+
+.newUnitBtn:hover {
+	color:var(--main-color);;
+}
+
+.unitsContainer {
+	/* height: 100vh; */
+	height: calc( 100% - 50px ); 
+	overflow: scroll;
+}

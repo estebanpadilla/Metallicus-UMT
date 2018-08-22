@@ -1,0 +1,575 @@
+{
+	"b6npo2519jiryi76": {
+		"id": 1,
+		"name": "Stronghold",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100
+		},
+		"connetions": [
+			10,
+			20,
+			23,
+			34,
+			45
+		],
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": "This is the building you start with. You cannot build this, and it can't be recycled. It has a massive amount of health (somewhere around 1,500 should be good). It can't produce energy, but instead has a full battery that holds up to 400 energy. If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it.",
+		"pros": "Has allow more power to use initially, right when you need it to get mining operations underway. Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units. Can regenerate.",
+		"cons": "Can't generate power at all, and the missiles made for the turret are far more expensive then normal. If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+	},
+	"b6npo2519jiryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6npo2519jitrryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6npo2519jirhgyi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6nwepo2519jiryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6npo2gger519jiryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6npofgg2519jiryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6npo251we9jiryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6npo2fd519jiryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	},
+	"b6npo2ds519jiryi73": {
+		"id": 2,
+		"name": "Repair Station",
+		"health": 1000,
+		"damage": 0,
+		"currentLevel": 0,
+		"connectivity": {
+			"range": 100,
+			"connetions": []
+		},
+		"levels": [
+			{
+				"price": {
+					"creation": 0,
+					"upgrading": 0,
+					"saling": 0
+				},
+				"energy": {
+					"usage": 20
+				},
+				"work": {
+					"time": 0,
+					"rate": 0,
+					"efficiency": 0,
+					"defficiency": 0,
+					"storageCapacity": 0
+				},
+				"military": {
+					"range": 0,
+					"armor": 0,
+					"ratio": 0
+				},
+				"repair": {
+					"cost": 0,
+					"eneryCost": 0,
+					"materialCost": 0,
+					"time": 4,
+					"ratio": 10
+				}
+			}
+		],
+		"description": [
+			"This is the building you start with.",
+			"You cannot build this, and it can't be recycled.",
+			"It has a massive amount of health (somewhere around 1,500 should be good).",
+			"It can't produce energy, but instead has a full battery that holds up to 400 energy.",
+			"If the strongholds health becomes 0, it becomes the enemies, as will anything connected by power lines to it."
+		],
+		"pros": [
+			"Has allow more power to use initially, right when you need it to get mining operations underway.",
+			"Has a way to fight off attackers early so you're not completely defenseless and in a pinch can increase the strength of all your units.",
+			"Can regenerate."
+		],
+		"cons": [
+			"Can't generate power at all, and the missiles made for the turret are far more expensive then normal.",
+			"If captured (killed) by the enemy, then they gain control of everything connected to it by the power lines."
+		]
+	}
+}

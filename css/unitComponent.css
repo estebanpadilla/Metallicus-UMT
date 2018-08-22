@@ -1,0 +1,12 @@
+/* Add your amazing style here! */
+.unitComponent  {
+	height: auto;
+	background-color: var(--main-color);
+	margin:5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border-style: solid;
+	border-color: black;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

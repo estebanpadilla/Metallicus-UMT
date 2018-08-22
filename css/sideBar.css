@@ -1,0 +1,27 @@
+/* Add your amazing style here! */
+.sideBar{
+	background-color:black;
+	width: 80px;
+	height: auto;
+}
+
+.sideBarUnitsBtn {
+	height: 80px;
+}
+
+.sideBarUnitsBtn:hover {
+	color:var(--main-color);
+}
+
+.sideBarLevelsBtn {
+	height: 80px;
+}
+
+.sideBarLevelsBtn:hover {
+	color:var(--main-color);
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+

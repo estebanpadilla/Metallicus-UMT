@@ -1,0 +1,14 @@
+{
+  "name": "metallicus",
+  "version": "1.0.0",
+  "description": "A simple game unit manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Esteban Padilla",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0"
+  }
+}

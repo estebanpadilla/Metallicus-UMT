@@ -1,0 +1,9 @@
+/* Add your amazing style here! */
+.unitLevelDataComponent{
+	background-color:lightgoldenrodyellow;
+	width: 40%;
+	height: 100vh;
+	/* padding: 0px 5px 0px 5px; */
+	overflow: scroll;
+	box-sizing: border-box;
+}
