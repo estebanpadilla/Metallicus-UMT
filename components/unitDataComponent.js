@@ -90,7 +90,7 @@ class UnitDataComponent extends Component {
 		input.key = key;
 		input.placeholder = key;
 		input.isFromObject = false;
-		input.onchange = this.onchange.bind(this);
+		input.onkeyup = this.onkeyup.bind(this);
 	}
 
 	processText(value, key) {
@@ -106,7 +106,7 @@ class UnitDataComponent extends Component {
 		input.key = key;
 		input.placeholder = key;
 		input.isFromObject = false;
-		input.onchange = this.onchange.bind(this);
+		input.onkeyup = this.onkeyup.bind(this);
 		//input.onkeydown = this.autosize.bind(this);
 		//input.onkeyup = this.autosize.bind(this);
 		input.onkeydown = this.autosize.bind(this);
@@ -128,7 +128,7 @@ class UnitDataComponent extends Component {
 		input.key = key;
 		input.placeholder = key;
 		input.isFromObject = false;
-		input.onchange = this.onchange.bind(this);
+		input.onkeyup = this.onkeyup.bind(this);
 	}
 
 	processArray(array, objectKey) {
@@ -159,7 +159,7 @@ class UnitDataComponent extends Component {
 		}
 	}
 
-	onchange(e) {
+	onkeyup(e) {
 		console.log(e);
 		this.model[e.target.key] = e.target.value;
 		console.log(this.model);

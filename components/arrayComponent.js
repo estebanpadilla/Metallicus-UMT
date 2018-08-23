@@ -9,6 +9,7 @@ class ArrayComponent extends Component {
 	constructor(model, appManager, parent, key) {
 		super(model, appManager, parent);
 		this.container.className = 'arrayComponent';
+		this.key = key;
 
 		this.header = document.createElement('div');
 		this.title = document.createElement('p');
@@ -34,22 +35,33 @@ class ArrayComponent extends Component {
 
 		this.addBtn.onclick = this.add.bind(this);
 
-		this.model[key].forEach(element => {
+		this.arrayIndex = 0;
+		this.model[this.key].forEach(element => {
 			var input = document.createElement('input');
 			this.connectionsContainer.appendChild(input);
 			input.value = element;
+			input.arrayIndex = this.arrayIndex;
+			input.onkeyup = this.onkeyup.bind(this);
+			this.arrayIndex++;
+
 		});
-
-
 	}
 
 	add() {
 		var input = document.createElement('input');
 		this.connectionsContainer.appendChild(input);
+		input.onkeyup = this.onkeyup.bind(this);
 		input.value = 0;
+		input.arrayIndex = this.arrayIndex;
+		this.arrayIndex++;
+		this.model[this.key].push(0);
 	}
 
 	remove() {
 
+	}
+
+	onkeyup(e) {
+		this.model[this.key][e.target.arrayIndex] = e.target.value;
 	}
 }
