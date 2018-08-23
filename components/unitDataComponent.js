@@ -133,25 +133,20 @@ class UnitDataComponent extends Component {
 
 	processArray(array, objectKey) {
 
-		var label = document.createElement('p');
-		label.className = 'labelTitle';
-		this.unitDataContainer.appendChild(label);
-		label.innerHTML = objectKey.capitalize();
+		// var label = document.createElement('p');
+		// label.className = 'labelTitle';
+		// this.unitDataContainer.appendChild(label);
+		// label.innerHTML = objectKey.capitalize();
 
-		if (objectKey === 'connections') {
+		//if (objectKey === 'connections') {
 
-			var connectionsContainer = document.createElement('div');
-			this.unitDataContainer.appendChild(connectionsContainer);
+		//var connectionsContainer = document.createElement('div');
+		//this.unitDataContainer.appendChild(connectionsContainer);
+		var arrayComponent = new ArrayComponent(this.model, this.appManager, this.unitDataContainer, objectKey);
 
-			array.forEach(element => {
-				console.log(element);
 
-				var input = document.createElement('input');
-				connectionsContainer.appendChild(input);
-				input.value = element;
 
-			});
-		}
+		//}
 	}
 
 	udpateUnit() {

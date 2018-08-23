@@ -13,7 +13,6 @@ class Component {
 
 		this.container = document.createElement('div');
 		this.parent.appendChild(this.container);
-
 	}
 
 	show() {
