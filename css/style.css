@@ -53,7 +53,7 @@ textarea {
 	resize: none;
 }
 
-  textarea:focus{
+textarea:focus{
 	border-color: var(--main-color);
 }
 

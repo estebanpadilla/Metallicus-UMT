@@ -18,8 +18,9 @@ class ArrayComponent extends Component {
 
 		this.container.appendChild(this.header);
 		this.header.appendChild(this.title);
-		this.header.appendChild(this.addBtn);
 		this.header.appendChild(this.removeBtn);
+		this.header.appendChild(this.addBtn);
+
 
 		this.header.style.width = '100%';
 		this.header.style.height = '50px';
@@ -27,8 +28,8 @@ class ArrayComponent extends Component {
 		this.title.innerHTML = key.capitalize();
 		this.title.className = 'headerTitle';
 
-		this.addBtn.className = 'newUnitBtn fas fa-times-circle fa-2x';
-		this.removeBtn.className = 'deleteUnitBtn fas fa-plus-circle fa-2x';
+		this.addBtn.className = 'newUnitBtn fas fa-plus-circle fa-2x';
+		this.removeBtn.className = 'deleteUnitBtn fas fa-times-circle fa-2x';
 
 		this.connectionsContainer = document.createElement('div');
 		this.container.appendChild(this.connectionsContainer);
@@ -37,17 +38,20 @@ class ArrayComponent extends Component {
 
 		this.arrayIndex = 0;
 		this.model[this.key].forEach(element => {
-			var input = document.createElement('input');
-			this.connectionsContainer.appendChild(input);
-			input.value = element;
-			input.arrayIndex = this.arrayIndex;
-			input.onkeyup = this.onkeyup.bind(this);
-			this.arrayIndex++;
-
+			if (typeof (element) === 'number') {
+				var input = document.createElement('input');
+				this.connectionsContainer.appendChild(input);
+				input.value = element;
+				input.arrayIndex = this.arrayIndex;
+				input.onkeyup = this.onkeyup.bind(this);
+				this.arrayIndex++;
+			} else if (typeof (element) === 'object') {
+				//this.processObject(element, key);
+			}
 		});
 	}
 
-	add() {
+	add(e) {
 		var input = document.createElement('input');
 		this.connectionsContainer.appendChild(input);
 		input.onkeyup = this.onkeyup.bind(this);
@@ -57,11 +61,11 @@ class ArrayComponent extends Component {
 		this.model[this.key].push(0);
 	}
 
-	remove() {
+	remove(e) {
 
 	}
 
 	onkeyup(e) {
-		this.model[this.key][e.target.arrayIndex] = e.target.value;
+		this.model[this.key][e.target.arrayIndex] = Number(e.target.value);
 	}
 }

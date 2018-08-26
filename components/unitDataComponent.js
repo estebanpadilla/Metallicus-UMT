@@ -57,7 +57,7 @@ class UnitDataComponent extends Component {
 			if (object.hasOwnProperty(key)) {
 				const element = object[key];
 
-				console.log(typeof (element), key);
+				//console.log(typeof (element), key);
 
 				if (typeof (element) === 'string') {
 					if (element.length > 50) {
